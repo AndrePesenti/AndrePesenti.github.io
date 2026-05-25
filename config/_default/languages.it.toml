@@ -12,7 +12,7 @@ title = "Appunti"
   description = "Appunti di scuola"
 
 [params.author]
-  name = "Andrea"
+  name = ""
   image = ""
-  headline = "Appunti di scuola"
+  headline = ""
   bio = ""
