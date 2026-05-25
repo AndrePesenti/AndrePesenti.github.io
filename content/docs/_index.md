@@ -1,4 +1,4 @@
 ---
-title: "Appunti"
-description: "Tutti gli appunti divisi per materia"
+title: "Scuola"
+description: "Tutto il materiale scolastico"
 ---
