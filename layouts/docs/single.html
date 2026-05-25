@@ -1,0 +1,66 @@
+{{ define "main" }}
+  {{ .Scratch.Set "scope" "single" }}
+  <article>
+    <header id="single_header" class="mt-5 max-w-prose">
+      {{ if .Params.showBreadcrumbs | default (site.Params.article.showBreadcrumbs | default false) }}
+        {{ partial "breadcrumbs.html" . }}
+      {{ end }}
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        {{ .Title | emojify }}
+      </h1>
+      <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        {{ partial "article-meta/basic.html" (dict "context" . "scope" "single") }}
+      </div>
+    </header>
+
+    <section class="flex flex-col max-w-full mt-0 lg:flex-row gap-8">
+      {{/* Left: TOC */}}
+      {{ $enableToc := site.Params.article.showTableOfContents | default false }}
+      {{ $enableToc = .Params.showTableOfContents | default $enableToc }}
+      {{ $showToc := and $enableToc (in .TableOfContents "<ul") }}
+      {{ $topClass := cond (hasPrefix site.Params.header.layout "fixed") "lg:top-[148px]" "lg:top-10" }}
+      {{ if $showToc }}
+        <aside class="hidden lg:block lg:w-56 shrink-0 order-first">
+          <nav class="toc print:hidden lg:sticky {{ $topClass }}">
+            <h2 class="text-xs font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400 mb-3">
+              In questa pagina
+            </h2>
+            {{ partial "toc.html" . }}
+          </nav>
+        </aside>
+      {{ end }}
+
+      {{/* Center: Content */}}
+      <div class="min-w-0 min-h-0 flex-1 max-w-prose">
+        <div class="article-content mb-20">
+          {{ .Content }}
+        </div>
+        {{ partial "article-pagination.html" . }}
+      </div>
+
+      {{/* Right: Other pages in section */}}
+      {{ $currentSection := .CurrentSection }}
+      {{ $pages := where $currentSection.Pages "File.Path" "!=" .File.Path }}
+      {{ if gt (len $pages) 0 }}
+        <aside class="hidden xl:block xl:w-56 shrink-0 order-last">
+          <div class="lg:sticky {{ $topClass }}">
+            <h2 class="text-xs font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400 mb-3">
+              Altri appunti
+            </h2>
+            <ul class="space-y-2 list-none ps-0">
+              {{ range $pages }}
+                <li>
+                  <a href="{{ .RelPermalink }}"
+                     class="block text-sm text-neutral-600 hover:text-primary-600 dark:text-neutral-400 dark:hover:text-primary-400 transition-colors py-1 border-l-2 border-transparent hover:border-primary-500 pl-3
+                     {{ if eq .RelPermalink $.RelPermalink }}border-primary-500 text-primary-600 dark:text-primary-400 font-medium{{ end }}">
+                    {{ .Title }}
+                  </a>
+                </li>
+              {{ end }}
+            </ul>
+          </div>
+        </aside>
+      {{ end }}
+    </section>
+  </article>
+{{ end }}
