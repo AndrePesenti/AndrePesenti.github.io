@@ -13,13 +13,16 @@
       </div>
     </header>
 
-    <section class="flex flex-col max-w-full mt-0 lg:flex-row gap-8">
-      {{ $topClass := cond (hasPrefix site.Params.header.layout "fixed") "lg:top-[148px]" "lg:top-10" }}
-      {{ $currentSection := .CurrentSection }}
+    {{ $topClass := cond (hasPrefix site.Params.header.layout "fixed") "lg:top-[148px]" "lg:top-10" }}
+    {{ $currentSection := .CurrentSection }}
+    {{ $pages := $currentSection.Pages }}
+    {{ $enableToc := site.Params.article.showTableOfContents | default false }}
+    {{ $enableToc = .Params.showTableOfContents | default $enableToc }}
+    {{ $showToc := and $enableToc (in .TableOfContents "<ul") }}
 
+    <div class="grid grid-cols-1 lg:grid-cols-[220px_minmax(0,1fr)_220px] gap-8 mt-0">
       {{/* Left: Altri appunti nella materia */}}
-      {{ $pages := $currentSection.Pages }}
-      <aside class="hidden lg:block lg:w-56 shrink-0 order-first">
+      <aside class="hidden lg:block">
         <div class="lg:sticky {{ $topClass }}">
           <h2 class="text-xs font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400 mb-3">
             {{ $currentSection.Title }}
@@ -28,7 +31,7 @@
             {{ range $pages }}
               <li>
                 <a href="{{ .RelPermalink }}"
-                   class="block text-sm text-neutral-600 hover:text-primary-600 dark:text-neutral-400 dark:hover:text-primary-400 transition-colors py-1 border-l-2 pl-3
+                   class="block text-sm text-neutral-600 hover:text-primary-600 dark:text-neutral-400 dark:hover:text-primary-400 transition-colors py-1 border-l-2 pl-3 truncate
                    {{ if eq .RelPermalink $.RelPermalink }}border-primary-500 text-primary-600 dark:text-primary-400 font-medium{{ else }}border-transparent hover:border-primary-500{{ end }}">
                   {{ .Title }}
                 </a>
@@ -39,7 +42,7 @@
       </aside>
 
       {{/* Center: Content */}}
-      <div class="min-w-0 min-h-0 flex-1 max-w-prose">
+      <div class="min-w-0 overflow-hidden">
         <div class="article-content mb-20">
           {{ .Content }}
         </div>
@@ -47,11 +50,8 @@
       </div>
 
       {{/* Right: TOC */}}
-      {{ $enableToc := site.Params.article.showTableOfContents | default false }}
-      {{ $enableToc = .Params.showTableOfContents | default $enableToc }}
-      {{ $showToc := and $enableToc (in .TableOfContents "<ul") }}
       {{ if $showToc }}
-        <aside class="hidden lg:block lg:w-56 shrink-0 order-last">
+        <aside class="hidden lg:block">
           <nav class="toc print:hidden lg:sticky {{ $topClass }}">
             <h2 class="text-xs font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400 mb-3">
               In questa pagina
@@ -60,6 +60,6 @@
           </nav>
         </aside>
       {{ end }}
-    </section>
+    </div>
   </article>
 {{ end }}
