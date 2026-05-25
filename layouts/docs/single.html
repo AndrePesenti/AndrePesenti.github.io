@@ -30,7 +30,11 @@
 
     {{ $topClass := cond (hasPrefix site.Params.header.layout "fixed") "lg:top-[148px]" "lg:top-10" }}
     {{ $currentSection := .CurrentSection }}
+    {{ $sidebarTitle := $currentSection.Title }}
     {{ $pages := $currentSection.Pages }}
+    {{ if $currentSection.Parent }}
+      {{ $sidebarTitle = $currentSection.Parent.Title }}
+    {{ end }}
     {{ $enableToc := site.Params.article.showTableOfContents | default false }}
     {{ $enableToc = .Params.showTableOfContents | default $enableToc }}
     {{ $showToc := and $enableToc (in .TableOfContents "<ul") }}
@@ -40,7 +44,7 @@
       <aside class="order-first hidden lg:block max-w-2xs shrink-0 me-48 overflow-hidden">
         <div class="lg:sticky {{ $topClass }}">
           <h2 class="text-xs font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400 mb-3">
-            {{ $currentSection.Title }}
+            {{ $sidebarTitle }}
           </h2>
           <ul class="space-y-1 list-none ps-0">
             {{ range $pages }}
