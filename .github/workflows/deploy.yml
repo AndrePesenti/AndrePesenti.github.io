@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -20,20 +21,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
         with:
-          node-version: "24"
+          submodules: false
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: "0.161.1"
           extended: true
-
-      - name: Install dependencies
-        run: npm ci
 
       - name: Build
         run: hugo --minify --gc --baseURL "https://andrepesenti.github.io/"

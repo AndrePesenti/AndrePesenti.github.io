@@ -1,0 +1,18 @@
+locale = "it"
+label = "Italiano"
+weight = 1
+title = "Appunti"
+
+[params]
+  displayName = "IT"
+  isoCode = "it"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = ""
+  description = "Appunti di scuola"
+
+[params.author]
+  name = "Andrea"
+  image = ""
+  headline = "Appunti di scuola"
+  bio = ""

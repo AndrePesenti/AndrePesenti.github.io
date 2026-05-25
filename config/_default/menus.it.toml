@@ -1,0 +1,10 @@
+[[main]]
+  name = "Appunti"
+  pageRef = "docs"
+  weight = 10
+
+[[social]]
+  identifier = "github"
+  pre = "github"
+  url = "https://github.com/AndrePesenti"
+  weight = 400
