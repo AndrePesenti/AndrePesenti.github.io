@@ -50,7 +50,7 @@ Scrive opere figlie degli ideali romantici negli anni 20:
 - **Dizionario**: Manzoni propose la redazione di un nuovo dizionario per controllare le parole corrette.
 - **Maestri fiorentini**: Manzoni introdusse i maestri fiorentini nelle scuole per insegnare ai bambini la lingua già fin da quando erano piccoli.
 
-### Infanzia e salute
+### <u>Infanzia e salute</u>
 Fin da bambino ha avuto una **vita abbastanza difficile e fragile**
 - Era **balbuziente**.
 - Affronta una serie di **lutti**: tra cui la madre, la prima moglie e 8 dei 9 figli.
