@@ -109,10 +109,10 @@
 
     {{ $topClass := cond (hasPrefix site.Params.header.layout "fixed") "lg:top-[148px]" "lg:top-10" }}
     {{ $subject := .CurrentSection }}
-    {{ if and $subject.Parent $subject.Parent.Parent (ne $subject.Parent.Parent.Kind "home") }}
+    {{ if and $subject.Parent (ne $subject.Parent.Title "Appunti") }}
       {{ $subject = $subject.Parent }}
     {{ end }}
-    {{ if and $subject.Parent $subject.Parent.Parent (ne $subject.Parent.Parent.Kind "home") }}
+    {{ if and $subject.Parent (ne $subject.Parent.Title "Appunti") }}
       {{ $subject = $subject.Parent }}
     {{ end }}
     {{ $sidebarTitle := $subject.Title }}
