@@ -20,9 +20,9 @@
     {{ $enableToc = .Params.showTableOfContents | default $enableToc }}
     {{ $showToc := and $enableToc (in .TableOfContents "<ul") }}
 
-    <div class="grid grid-cols-1 lg:grid-cols-[220px_minmax(0,1fr)_220px] gap-8 mt-0">
+    <div class="lg:grid lg:grid-cols-12 lg:gap-8 mt-0">
       {{/* Left: Altri appunti nella materia */}}
-      <aside class="hidden lg:block">
+      <aside class="hidden lg:block lg:col-span-2">
         <div class="lg:sticky {{ $topClass }}">
           <h2 class="text-xs font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400 mb-3">
             {{ $currentSection.Title }}
@@ -42,7 +42,7 @@
       </aside>
 
       {{/* Center: Content */}}
-      <div class="min-w-0 overflow-hidden">
+      <div class="min-w-0 lg:col-span-8">
         <div class="article-content mb-20">
           {{ .Content }}
         </div>
@@ -51,7 +51,7 @@
 
       {{/* Right: TOC */}}
       {{ if $showToc }}
-        <aside class="hidden lg:block">
+        <aside class="hidden lg:block lg:col-span-2">
           <nav class="toc print:hidden lg:sticky {{ $topClass }}">
             <h2 class="text-xs font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400 mb-3">
               In questa pagina
