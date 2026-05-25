@@ -3,16 +3,17 @@
 
   <style>
     .article-link--card {
-      display: flex;
+      display: inline-flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding: 0.5rem 1rem;
+      padding: 0.5rem 1.5rem;
     }
     .article-link--card h2 {
       text-align: center;
       margin: 0;
       font-size: 1rem;
+      white-space: nowrap;
     }
     .article-link--card .article-link__summary {
       display: none;
@@ -23,6 +24,11 @@
     .article-link--card .text-sm {
       text-align: center;
       font-size: 0.75rem;
+    }
+    section.grid {
+      display: flex !important;
+      flex-wrap: wrap !important;
+      justify-content: center !important;
     }
   </style>
 
