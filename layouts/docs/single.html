@@ -1,7 +1,19 @@
 {{ define "main" }}
   {{ .Scratch.Set "scope" "single" }}
+
+  <style>
+    /* Full-width layout for notes pages */
+    @media (min-width: 1024px) {
+      html body {
+        max-width: 96rem !important;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+      }
+    }
+  </style>
+
   <article>
-    <header id="single_header" class="mt-5 max-w-prose">
+    <header id="single_header" class="mt-5">
       {{ if .Params.showBreadcrumbs | default (site.Params.article.showBreadcrumbs | default false) }}
         {{ partial "breadcrumbs.html" . }}
       {{ end }}
@@ -42,7 +54,7 @@
       </aside>
 
       {{/* Center: Content */}}
-      <div class="min-w-0 flex-1 max-w-prose">
+      <div class="min-w-0 flex-1">
         <div class="article-content mb-20">
           {{ .Content }}
         </div>
