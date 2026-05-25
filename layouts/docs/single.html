@@ -34,7 +34,7 @@
 
     <div class="flex flex-col lg:flex-row gap-4 mt-0">
       {{/* Left: Altri appunti nella materia */}}
-      <aside class="order-first hidden lg:block max-w-2xs shrink-0 me-16 overflow-hidden">
+      <aside class="order-first hidden lg:block max-w-2xs shrink-0 me-48 overflow-hidden">
         <div class="lg:sticky {{ $topClass }}">
           <h2 class="text-xs font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400 mb-3">
             {{ $currentSection.Title }}
@@ -55,7 +55,7 @@
 
       {{/* Center: Content */}}
       <div class="min-w-0 flex-1">
-        <div class="article-content prose dark:prose-invert mb-20">
+        <div class="article-content prose dark:prose-invert mx-auto mb-20">
           {{ .Content }}
         </div>
         {{ partial "article-pagination.html" . }}
