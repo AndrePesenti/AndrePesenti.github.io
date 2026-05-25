@@ -6,29 +6,28 @@ tags: ["italiano", "manzoni"]
 showTableOfContents: true
 ---
 
-# Alessandro Manzoni
-
 Nasce a Milano nel 1785, la madre si chiama Giulia Beccaria. E' la figlia di Cesare Beccaria (autore dei delitti e delle pene).
 
 Il padre sarebbe **Pietro Manzoni**, conte di Lecco, ma in verità il vero padre dovrebbe essere Don Pietro Verri. 
 
 La madre è in cattivissimi rapporti con Pietro Manzoni. Sono separati e la mamma va a Parigi. Manzoni rimane a Lecco con il padre (Pietro) e **un'educazione classica con impronta religiosa**.
 
-### <u>Parigi</u>
+## Parigi
+
 A 25 anni si trasferisce a Parigi dalla madre e li frequenta il **salotto di Madame de Stael**, dove **conosce il romanticismo**. 
 
 Conosce il **Giansenismo**: ovvero una distorsione eretica del cattolicesimo che si avvicina al protestantesimo. E' molto pessimistica, pensa che non si possa combattere il peccato. 
 
-Sempre a Parigi si sposa con una donna: **Enrichetta Blondel**
-<br>E' una donna protestante tanto che Manzoni si allontana ancora di più dal cattolicesimo.
+Sempre a Parigi si sposa con una donna: **Enrichetta Blondel**. E' una donna protestante tanto che Manzoni si allontana ancora di più dal cattolicesimo.
 
-#### Miracolo di San Rocco
-Manzoni si riavvicina al cattolicesimo dopo il **miracolo di San Rocco**
+### Miracolo di San Rocco
 
-2 Aprile 1810: Napoleone si è appena spostato e a Parigi sono in corso festeggiamenti. Ad un certo punto Manzoni si ritrova tra la folla scatenata (cosa che gli da molto fastidio perchè soffre di agorafobia come spiegato successivamente). In seguito ad un'esplosione viene separato dalla moglie. 
-<br>Si ritrova davanti alla chiesa di San Rocco. Entra nella chiesa e implora la grazia di trovare la moglie, che successivamente ritrova. In conseguenza a questo **si riconverte al cattolicesimo**. 
+Manzoni si riavvicina al cattolicesimo dopo il **miracolo di San Rocco**.
 
-### <u>Italia</u>
+2 Aprile 1810: Napoleone si è appena spostato e a Parigi sono in corso festeggiamenti. Ad un certo punto Manzoni si ritrova tra la folla scatenata (cosa che gli da molto fastidio perchè soffre di agorafobia come spiegato successivamente). In seguito ad un'esplosione viene separato dalla moglie. Si ritrova davanti alla chiesa di San Rocco. Entra nella chiesa e implora la grazia di trovare la moglie, che successivamente ritrova. In conseguenza a questo **si riconverte al cattolicesimo**. 
+
+## Italia
+
 Nel 1810 torna in Italia, in quegli anni sono in corso dibattiti tra romantici e classicisti, ai quali Manzoni però non partecipa. 
 
 Scrive opere figlie degli ideali romantici negli anni 20:
@@ -50,26 +49,29 @@ Scrive opere figlie degli ideali romantici negli anni 20:
 - **Dizionario**: Manzoni propose la redazione di un nuovo dizionario per controllare le parole corrette.
 - **Maestri fiorentini**: Manzoni introdusse i maestri fiorentini nelle scuole per insegnare ai bambini la lingua già fin da quando erano piccoli.
 
-### <u>Infanzia e salute</u>
+## Infanzia e salute
+
 Fin da bambino ha avuto una **vita abbastanza difficile e fragile**
 - Era **balbuziente**.
 - Affronta una serie di **lutti**: tra cui la madre, la prima moglie e 8 dei 9 figli.
 - Soffriva di **agorafobia**: ovvero paura degli spazi aperti e affollati.
 
-Contribuisce al risorgimento: all'interno dei Promessi Sposi, parla di Milano, appressa dagli spagnoli nel 600. Fa questo perchè vuole paragonarlo indirettamente a ciò che accade nell'800 con il dominio austriaco, ma non può dirlo esplicitamente perchè l'opera sarebbe stata censurata.
+Contribuisce al risorgimento: all'interno dei Promessi Sposi, parla di Milano, oppressa dagli spagnoli nel 600. Fa questo perchè vuole paragonarlo indirettamente a ciò che accade nell'800 con il dominio austriaco, ma non può dirlo esplicitamente perchè l'opera sarebbe stata censurata.
 
-### <u>Lingua</u>
+## Lingua
+
 L'italiano esisteva solamente nei libri, perciò soltanto chi leggeva questi libri imparava la lingua, altrimenti era molto difficile capirsi.
 
 - Manzoni vuole **dare una lingua comune all'Italia come nazione.** Ci sono diverse opzioni tra cui il modello utilizzato da Dante-Petrarca-Boccaccio. Alla fine, sceglie di usare il fiorentino perchè è una lingua viva.
 
-<u>*"Sciacquare i panni nell'Arno":*</u> Manzoni usa questa espressione metaforica molto famosa per sottolineare come lui sceglie di cambiare la lingua del suo romanzo (sciacquare le pagine). Questa metafora sta ad indicare il lunghissimo e duro lavoro di revisione della lingua del suo romando I Promessi Sposi rimuovendo paroli dialettali e termini troppo vecchi e polverosi sostituendoli con la lingua parlata dalle persone colte di Firenze (fiorentino colto).
+*"Sciacquare i panni nell'Arno":* Manzoni usa questa espressione metaforica molto famosa per sottolineare come lui sceglie di cambiare la lingua del suo romanzo (sciacquare le pagine). Questa metafora sta ad indicare il lunghissimo e duro lavoro di revisione della lingua del suo romanzo I Promessi Sposi rimuovendo parole dialettali e termini troppo vecchi e polverosi sostituendoli con la lingua parlata dalle persone colte di Firenze (fiorentino colto).
 
 Con la nascita del regno d'Italia, Manzoni partecipa ad una **commissione** organizzata **per l'unificazione della lingua**. E' la commissione in cui inserisce il dizionario e i maestri fiorentini spiegato precedentemente.
 
-### <u>Morte</u>
+## Morte
+
 Manzoni muore molto anziano.
 
-Prima della sua morte la sua casa viene visitata da molti personaggi famosi, come Cavour e Verdi. Per il quale ha composta una famosissima musica: *Messa da Requiem* o *il Requiem di Verdi.*
+Prima della sua morte la sua casa viene visitata da molti personaggi famosi, come Cavour e Verdi. Per il quale ha composto una famosissima musica: *Messa da Requiem* o *il Requiem di Verdi.*
 
 Nel 1873 cade sui gradini bagnati della chiesa e sbatte violentemente la testa provocandosi così un trauma cranico. Non morì sul colpo ma si spense il 22 Maggio dopo mesi di agonia.
