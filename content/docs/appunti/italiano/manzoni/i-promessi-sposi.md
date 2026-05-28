@@ -3,6 +3,7 @@ title: "I Promessi Sposi"
 description: "Appunti su I Promessi Sposi di Manzoni"
 date: 2026-05-26
 draft: false
+weight: 2
 showTableOfContents: true
 ---
 

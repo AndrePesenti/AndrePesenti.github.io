@@ -3,6 +3,7 @@ title: "Renzo e il Dottor Azzeccagarbugli"
 description: "Appunti su Renzo e il Dottor Azzeccagarbugli di Manzoni"
 date: 2026-05-27
 draft: false
+weight: 3
 showTableOfContents: true
 ---
 

@@ -1,7 +1,7 @@
 locale = "it"
 label = "Italiano"
 weight = 1
-title = "Home"
+title = "Archivio di Andrea Pesenti"
 
 [params]
   displayName = "IT"
@@ -9,7 +9,7 @@ title = "Home"
   rtl = false
   dateFormat = "2 January 2006"
   logo = ""
-  description = "Appunti di scuola"
+  description = "Archivio personale: appunti scolastici, materiali di studio e risorse"
 
 [params.author]
   name = ""

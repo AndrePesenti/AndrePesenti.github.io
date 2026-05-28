@@ -4,7 +4,7 @@ description: "Appunti su Alessandro Manzoni"
 date: 2026-05-25
 tags: ["italiano", "manzoni"]
 showTableOfContents: true
-layout: single
+layout: scroll
 ---
 
 Nasce a Milano nel 1785, la madre si chiama Giulia Beccaria. E' la figlia di Cesare Beccaria (autore dei delitti e delle pene).

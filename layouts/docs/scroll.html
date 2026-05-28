@@ -1,0 +1,283 @@
+{{ define "main" }}
+  {{ .Scratch.Set "scope" "single" }}
+
+  <style>
+    @media (min-width: 1024px) {
+      html body {
+        max-width: 96rem !important;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+        height: auto !important;
+        min-height: 100vh !important;
+      }
+      .article-content.prose {
+        max-width: 80ch !important;
+      }
+      .sticky-sidebar {
+        position: sticky;
+        top: 90px;
+        max-height: calc(100vh - 110px);
+        overflow-y: auto;
+      }
+    }
+    .min-h-\[148px\] {
+      min-height: 80px !important;
+    }
+    #TableOfContents > ul {
+      padding-left: 0;
+      list-style: none;
+    }
+    #TableOfContents > ul > li {
+      margin-bottom: 0.5rem;
+    }
+    #TableOfContents > ul > li > a {
+      font-weight: 400;
+      font-size: 0.9rem;
+      color: inherit;
+      text-decoration: none;
+    }
+    #TableOfContents > ul > li > a:hover,
+    #TableOfContents > ul > li > a.active {
+      color: rgba(var(--color-primary-400), 1);
+      font-weight: 600;
+    }
+    #TableOfContents ul ul {
+      padding-left: 1rem;
+      list-style: none;
+      border-left: 1px solid rgba(var(--color-neutral-500), 0.3);
+      margin-top: 0.25rem;
+    }
+    #TableOfContents ul ul li {
+      margin-bottom: 0.15rem;
+    }
+    #TableOfContents ul ul a {
+      font-size: 0.8rem;
+      font-weight: 400;
+      color: rgba(var(--color-neutral-400), 1);
+      text-decoration: none;
+    }
+    #TableOfContents ul ul a:hover,
+    #TableOfContents ul ul a.active {
+      color: rgba(var(--color-primary-400), 1);
+      font-weight: 600;
+    }
+    .chapter-separator {
+      border: none;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(var(--color-primary-300), 0.5), transparent);
+      margin: 2.5rem 0;
+    }
+    .dark .chapter-separator {
+      background: linear-gradient(90deg, transparent, rgba(var(--color-primary-600), 0.4), transparent);
+    }
+  </style>
+
+  <article>
+    <header id="single_header" class="mt-0 text-center">
+      {{ if .Params.showBreadcrumbs | default (site.Params.article.showBreadcrumbs | default false) }}
+        {{ partial "breadcrumbs.html" . }}
+      {{ end }}
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        {{ .Title | emojify }}
+      </h1>
+      <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden flex justify-center">
+        {{ partial "article-meta/basic.html" (dict "context" . "scope" "single") }}
+      </div>
+    </header>
+
+    {{ $topClass := cond (hasPrefix site.Params.header.layout "fixed") "lg:top-[148px]" "lg:top-10" }}
+    {{ $subject := .CurrentSection }}
+    {{ if and $subject.Parent (ne $subject.Parent.Title "Appunti") }}
+      {{ $subject = $subject.Parent }}
+    {{ end }}
+    {{ if and $subject.Parent (ne $subject.Parent.Title "Appunti") }}
+      {{ $subject = $subject.Parent }}
+    {{ end }}
+    {{ $sidebarTitle := $subject.Title }}
+    {{ $enableToc := site.Params.article.showTableOfContents | default false }}
+    {{ $enableToc = .Params.showTableOfContents | default $enableToc }}
+    {{ $showToc := or $enableToc (gt (len .Pages) 0) }}
+
+    <div class="flex flex-col lg:flex-row gap-4 mt-0">
+      {{/* Left: Navigazione materia */}}
+      <aside class="order-first hidden lg:block max-w-2xs shrink-0 me-48">
+        <div class="sticky-sidebar">
+          <h2 class="text-xs font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400 mb-3">
+            {{ $sidebarTitle }}
+          </h2>
+          <ul class="space-y-1 list-none ps-0">
+            {{ range $subject.Pages }}
+              <li>
+                <a href="{{ .RelPermalink }}"
+                   class="block text-sm text-neutral-600 hover:text-primary-600 dark:text-neutral-400 dark:hover:text-primary-400 transition-colors py-1 border-l-2 pl-3 truncate
+                   {{ if or (eq .RelPermalink $.RelPermalink) (strings.HasPrefix $.RelPermalink .RelPermalink) }}border-primary-500 text-primary-600 dark:text-primary-400 font-medium{{ else }}border-transparent hover:border-primary-500{{ end }}">
+                  {{ .Title }}
+                </a>
+                {{ if .Pages }}
+                  <ul class="space-y-0.5 list-none ps-4 mt-0.5">
+                    {{ range .Pages }}
+                      <li>
+                        <a href="#{{ .File.ContentBaseName }}"
+                           class="block text-xs text-neutral-500 hover:text-primary-600 dark:text-neutral-500 dark:hover:text-primary-400 transition-colors py-0.5 border-l-2 pl-3 truncate border-transparent hover:border-primary-500">
+                          {{ .Title }}
+                        </a>
+                      </li>
+                    {{ end }}
+                  </ul>
+                {{ end }}
+              </li>
+            {{ end }}
+          </ul>
+        </div>
+      </aside>
+
+      {{/* Center: Content */}}
+      <div class="min-w-0 flex-1">
+        <div class="article-content prose dark:prose-invert mx-auto mb-10">
+          {{ .Content }}
+        </div>
+
+        {{/* Child pages: inline chapters */}}
+        {{ if .Pages }}
+          <div class="not-prose mt-12 mb-6">
+            <p class="chapters-section-label">Capitoli</p>
+            <hr class="border-t-2 border-primary-400/30 dark:border-primary-500/20">
+          </div>
+          {{ range .Pages }}
+            <div class="anchor" id="{{ .File.ContentBaseName }}"></div>
+            <div class="article-content prose dark:prose-invert mx-auto mb-12">
+              <h2 class="relative scroll-mt-24 chapter-heading">
+                {{ .Title }}
+              </h2>
+              {{ .Content }}
+            </div>
+          {{ end }}
+        {{ end }}
+
+        {{ partial "article-pagination.html" . }}
+      </div>
+
+      {{/* Right: TOC */}}
+      {{ if $showToc }}
+        <aside class="order-last hidden lg:block max-w-2xs shrink-0 ms-7">
+          <div class="sticky-sidebar">
+            <h2 class="text-xs font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400 mb-3">
+              In questa pagina
+            </h2>
+            {{ $toc := .TableOfContents }}
+            {{ $toc = replace $toc "<nav id=\"TableOfContents\">" "" }}
+            {{ $toc = replace $toc "</nav>" "" }}
+            <nav id="TableOfContents">
+              {{ $toc | safeHTML }}
+              {{ if $.Pages }}
+                {{ range $p := $.Pages }}
+                  {{ $childToc := $p.TableOfContents }}
+                  {{ $childToc = replace $childToc "<nav id=\"TableOfContents\">" "" }}
+                  {{ $childToc = replace $childToc "</nav>" "" }}
+                  <ul class="list-none ps-0 mt-2">
+                    <li class="mb-2">
+                      <a href="#{{ $p.File.ContentBaseName }}" class="no-underline font-semibold text-[0.88rem] text-primary-700 hover:text-primary-500 dark:text-primary-400 dark:hover:text-primary-300">
+                        {{ $p.Title }}
+                      </a>
+                      {{ if (in $childToc "<li>") }}
+                        {{ $childToc | safeHTML }}
+                      {{ end }}
+                    </li>
+                  </ul>
+                {{ end }}
+              {{ end }}
+            </nav>
+          </div>
+        </aside>
+      {{ end }}
+    </div>
+  </article>
+
+  {{ if site.Params.smartTOC }}
+  <script>
+    (function () {
+      'use strict'
+      const SCROLL_OFFSET_RATIO = 0.33
+      const TOC_SELECTOR = '#TableOfContents'
+      const ANCHOR_SELECTOR = '.anchor'
+      const TOC_LINK_SELECTOR = 'a[href^="#"]'
+      const ACTIVE_CLASS = 'active'
+      let isJumpingToAnchor = false
+
+      function getActiveAnchorId(anchors, offsetRatio) {
+        const threshold = window.scrollY + window.innerHeight * offsetRatio
+        const tocLinks = [...document.querySelectorAll('#TableOfContents a[href^="#"]')]
+        const tocIds = new Set(tocLinks.map(link => link.getAttribute('href').substring(1)))
+        if (isJumpingToAnchor) {
+          for (let i = 0; i < anchors.length; i++) {
+            const anchor = anchors[i]
+            if (!tocIds.has(anchor.id)) continue
+            const top = anchor.getBoundingClientRect().top + window.scrollY
+            if (Math.abs(window.scrollY - top) < 100) return anchor.id
+          }
+        }
+        for (let i = anchors.length - 1; i >= 0; i--) {
+          const top = anchors[i].getBoundingClientRect().top + window.scrollY
+          if (top <= threshold && tocIds.has(anchors[i].id)) return anchors[i].id
+        }
+        return anchors.find(anchor => tocIds.has(anchor.id))?.id || ''
+      }
+
+      function updateTOC({ toc, anchors, links, scrollOffset }) {
+        const activeId = getActiveAnchorId(anchors, scrollOffset)
+        if (!activeId) return
+        let activeLink = null
+        links.forEach(link => {
+          const isActive = link.getAttribute('href') === '#' + activeId
+          link.classList.toggle(ACTIVE_CLASS, isActive)
+          if (isActive) activeLink = link
+        })
+        if (activeLink) scrollIntoViewIfNeeded(activeLink)
+      }
+
+      function scrollIntoViewIfNeeded(el) {
+        const container = el.closest('.sticky-sidebar')
+        if (!container) return
+        const cRect = container.getBoundingClientRect()
+        const eRect = el.getBoundingClientRect()
+        const eTop = eRect.top - cRect.top + container.scrollTop
+        const eBottom = eTop + eRect.height
+        const cTop = container.scrollTop
+        const cBottom = cTop + container.clientHeight
+        const margin = 36
+        if (eTop < cTop + margin) {
+          container.scrollTop = eTop - margin
+        } else if (eBottom > cBottom - margin) {
+          container.scrollTop = eBottom - container.clientHeight + margin
+        }
+      }
+
+      function initTOC() {
+        const toc = document.querySelector(TOC_SELECTOR)
+        if (!toc) return
+        const anchors = [...document.querySelectorAll(ANCHOR_SELECTOR)]
+        const links = [...toc.querySelectorAll(TOC_LINK_SELECTOR)]
+        links.forEach(link => {
+          link.addEventListener('click', () => { isJumpingToAnchor = true })
+        })
+        const config = { toc, anchors, links, scrollOffset: SCROLL_OFFSET_RATIO }
+        window.addEventListener('scroll', () => updateTOC(config), { passive: true })
+        window.addEventListener('hashchange', () => updateTOC(config), { passive: true })
+        updateTOC(config)
+
+        /* Auto-scroll left sidebar to active link */
+        function scrollLeftSidebar() {
+          const activeLink = document.querySelector('aside .sticky-sidebar a.border-primary-500')
+          if (activeLink) scrollIntoViewIfNeeded(activeLink)
+        }
+        window.addEventListener('scroll', scrollLeftSidebar, { passive: true })
+        scrollLeftSidebar()
+      }
+
+      document.readyState === 'loading'
+        ? document.addEventListener('DOMContentLoaded', initTOC)
+        : initTOC()
+    })()
+  </script>
+  {{ end }}
+{{ end }}

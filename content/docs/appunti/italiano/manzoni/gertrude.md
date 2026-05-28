@@ -3,6 +3,7 @@ title: "Gertrude"
 description: "Appunti Gertrude"
 date: 2026-05-27
 draft: false
+weight: 4
 showTableOfContents: true
 ---
 
