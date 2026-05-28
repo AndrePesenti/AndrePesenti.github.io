@@ -116,12 +116,34 @@
                 {{ if .Pages }}
                   <ul class="space-y-0.5 list-none ps-4 mt-0.5">
                     {{ range .Pages }}
-                      <li>
-                        <a href="#{{ .File.ContentBaseName }}"
-                           class="block text-xs text-neutral-500 hover:text-primary-600 dark:text-neutral-500 dark:hover:text-primary-400 transition-colors py-0.5 border-l-2 pl-3 truncate border-transparent hover:border-primary-500">
-                          {{ .Title }}
-                        </a>
-                      </li>
+                      {{ if .IsSection }}
+                        <li>
+                          <a href="{{ .RelPermalink }}"
+                             class="block text-xs text-neutral-500 hover:text-primary-600 dark:text-neutral-500 dark:hover:text-primary-400 transition-colors py-0.5 border-l-2 pl-3 truncate
+                             {{ if or (eq .RelPermalink $.RelPermalink) (strings.HasPrefix $.RelPermalink .RelPermalink) }}border-primary-500 text-primary-600 dark:text-primary-400 font-medium{{ else }}border-transparent hover:border-primary-500{{ end }}">
+                            {{ .Title }}
+                          </a>
+                          {{ if .Pages }}
+                            <ul class="space-y-0.5 list-none ps-4 mt-0.5">
+                              {{ range .Pages }}
+                                <li>
+                                  <a href="#{{ .File.ContentBaseName }}"
+                                     class="block text-xs text-neutral-500 hover:text-primary-600 dark:text-neutral-500 dark:hover:text-primary-400 transition-colors py-0.5 border-l-2 pl-3 truncate border-transparent hover:border-primary-500">
+                                    {{ .Title }}
+                                  </a>
+                                </li>
+                              {{ end }}
+                            </ul>
+                          {{ end }}
+                        </li>
+                      {{ else }}
+                        <li>
+                          <a href="#{{ .File.ContentBaseName }}"
+                             class="block text-xs text-neutral-500 hover:text-primary-600 dark:text-neutral-500 dark:hover:text-primary-400 transition-colors py-0.5 border-l-2 pl-3 truncate border-transparent hover:border-primary-500">
+                            {{ .Title }}
+                          </a>
+                        </li>
+                      {{ end }}
                     {{ end }}
                   </ul>
                 {{ end }}
@@ -197,7 +219,7 @@
   <script>
     (function () {
       'use strict'
-      const SCROLL_OFFSET_RATIO = 0.33
+      const SCROLL_OFFSET_RATIO = 0.15
       const TOC_SELECTOR = '#TableOfContents'
       const ANCHOR_SELECTOR = '.anchor'
       const TOC_LINK_SELECTOR = 'a[href^="#"]'
@@ -265,13 +287,57 @@
         window.addEventListener('hashchange', () => updateTOC(config), { passive: true })
         updateTOC(config)
 
-        /* Auto-scroll left sidebar to active link */
-        function scrollLeftSidebar() {
-          const activeLink = document.querySelector('aside .sticky-sidebar a.border-primary-500')
-          if (activeLink) scrollIntoViewIfNeeded(activeLink)
+        /* Sync left sidebar active state with scroll */
+        const leftSidebar = document.querySelector('aside .sticky-sidebar')
+        if (!leftSidebar) return
+        const leftLinks = [...leftSidebar.querySelectorAll('a[href^="#"]')]
+        const leftLinkIds = new Set(leftLinks.map(l => l.getAttribute('href').substring(1)))
+        const allAnchors = [...document.querySelectorAll('.anchor')]
+        function updateLeftSidebar() {
+          const activeId = getActiveAnchorId(allAnchors, SCROLL_OFFSET_RATIO)
+          let chapterId = null
+          if (activeId) {
+            /* Direct match: the anchor itself is a chapter */
+            if (leftLinkIds.has(activeId)) {
+              chapterId = activeId
+            } else {
+              /* Find parent chapter: walk up from the active anchor to find the chapter's anchor div */
+              const activeAnchor = document.getElementById(activeId)
+              if (activeAnchor) {
+                const articleDiv = activeAnchor.closest('.article-content')
+                if (articleDiv) {
+                  const chapterAnchor = articleDiv.previousElementSibling
+                  if (chapterAnchor && chapterAnchor.classList.contains('anchor') && leftLinkIds.has(chapterAnchor.id)) {
+                    chapterId = chapterAnchor.id
+                  }
+                }
+              }
+            }
+          }
+          leftLinks.forEach(link => {
+            const linkId = link.getAttribute('href').substring(1)
+            const isActive = linkId === chapterId
+            if (isActive) {
+              link.classList.add('border-primary-500', 'text-primary-600', 'dark:text-primary-400', 'font-medium')
+              link.classList.remove('border-transparent')
+              scrollIntoViewIfNeeded(link)
+              const parentLi = link.closest('ul')?.closest('li')
+              if (parentLi) {
+                const parentLink = parentLi.querySelector(':scope > a')
+                if (parentLink && !parentLink.href.includes('#')) {
+                  parentLink.classList.add('border-primary-500', 'text-primary-600', 'dark:text-primary-400', 'font-medium')
+                  parentLink.classList.remove('border-transparent')
+                }
+              }
+            } else {
+              link.classList.remove('border-primary-500', 'text-primary-600', 'dark:text-primary-400', 'font-medium')
+              link.classList.add('border-transparent')
+            }
+          })
         }
-        window.addEventListener('scroll', scrollLeftSidebar, { passive: true })
-        scrollLeftSidebar()
+        window.addEventListener('scroll', updateLeftSidebar, { passive: true })
+        window.addEventListener('hashchange', updateLeftSidebar, { passive: true })
+        updateLeftSidebar()
       }
 
       document.readyState === 'loading'

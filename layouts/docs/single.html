@@ -138,13 +138,36 @@
                 {{ if .Pages }}
                   <ul class="space-y-0.5 list-none ps-4 mt-0.5">
                     {{ range .Pages }}
-                      <li>
-                        <a href="{{ .RelPermalink }}"
-                           class="block text-xs text-neutral-500 hover:text-primary-600 dark:text-neutral-500 dark:hover:text-primary-400 transition-colors py-0.5 border-l-2 pl-3 truncate
-                           {{ if eq .RelPermalink $.RelPermalink }}border-primary-500 text-primary-600 dark:text-primary-400 font-medium{{ else }}border-transparent hover:border-primary-500{{ end }}">
-                          {{ .Title }}
-                        </a>
-                      </li>
+                      {{ if .IsSection }}
+                        <li>
+                          <a href="{{ .RelPermalink }}"
+                             class="block text-xs text-neutral-500 hover:text-primary-600 dark:text-neutral-500 dark:hover:text-primary-400 transition-colors py-0.5 border-l-2 pl-3 truncate
+                             {{ if or (eq .RelPermalink $.RelPermalink) (strings.HasPrefix $.RelPermalink .RelPermalink) }}border-primary-500 text-primary-600 dark:text-primary-400 font-medium{{ else }}border-transparent hover:border-primary-500{{ end }}">
+                            {{ .Title }}
+                          </a>
+                          {{ if .Pages }}
+                            <ul class="space-y-0.5 list-none ps-4 mt-0.5">
+                              {{ range .Pages }}
+                                <li>
+                                  <a href="{{ .RelPermalink }}"
+                                     class="block text-xs text-neutral-500 hover:text-primary-600 dark:text-neutral-500 dark:hover:text-primary-400 transition-colors py-0.5 border-l-2 pl-3 truncate
+                                     {{ if eq .RelPermalink $.RelPermalink }}border-primary-500 text-primary-600 dark:text-primary-400 font-medium{{ else }}border-transparent hover:border-primary-500{{ end }}">
+                                    {{ .Title }}
+                                  </a>
+                                </li>
+                              {{ end }}
+                            </ul>
+                          {{ end }}
+                        </li>
+                      {{ else }}
+                        <li>
+                          <a href="{{ .RelPermalink }}"
+                             class="block text-xs text-neutral-500 hover:text-primary-600 dark:text-neutral-500 dark:hover:text-primary-400 transition-colors py-0.5 border-l-2 pl-3 truncate
+                             {{ if eq .RelPermalink $.RelPermalink }}border-primary-500 text-primary-600 dark:text-primary-400 font-medium{{ else }}border-transparent hover:border-primary-500{{ end }}">
+                            {{ .Title }}
+                          </a>
+                        </li>
+                      {{ end }}
                     {{ end }}
                   </ul>
                 {{ end }}
@@ -189,7 +212,7 @@
   <script>
     (function () {
       'use strict'
-      const SCROLL_OFFSET_RATIO = 0.33
+      const SCROLL_OFFSET_RATIO = 0.15
       const TOC_SELECTOR = '#TableOfContents'
       const ANCHOR_SELECTOR = '.anchor'
       const TOC_LINK_SELECTOR = 'a[href^="#"]'
