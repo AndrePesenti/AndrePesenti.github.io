@@ -1,5 +1,5 @@
 ---
-title: "Gertrude"
+title: "Gertrude e la Monaca di Monza"
 description: "Appunti Gertrude"
 date: 2026-05-27
 draft: false
