@@ -65,3 +65,20 @@ Manzoni scrive anche che si è documentato per verificare quanto riportato nel m
 3) Conosce il **presente-passato-futuro**: per esempio vengono inseriti dei **flashback**. Non può eccedere nel parlare del futuro perchè altrimenti sarebbe troppo spoiler. 
 4) **Giudica:** sa distinguere in modo netto chi ha ragione da chi ha torto, il bene dal male. Prevale una morale di tipo cristiana.
 5) Mostra il suo lavoro al lettore e fa percepire la sua **presenza** in maniera costante: è molto bravo a persuadere il lettore facendolo convincere delle sue idee.
+
+## Finale
+Si può dire che il finale sia lieto ma anche no per i seguenti motivi:
+
+### Finale lieto
+I due vissero comunque felici, sposati, Renzo riesce a fare fortuna, vanno a vivere assieme.
+
+Per Renzo il finale è lieto perchè dice che tutte le disavventure che ha subito gli sono servite da lezione in modo che in futuro non compierà nuovamente quegli sbagli. 
+
+La cosa importante è che **Renzo è lui che ha sbagliato e quindi è per colpa sua se si è ritrovato protagonista di quelle sfortune e del male che ha subito.**
+
+### Finale NON lieto
+A differenza di Renzo, Lucia si è trovata immersa in quelle disavventure e in quel male quando non aveva fatto assolutamente niente per meritarselo. 
+
+Per Lucia, il male arriva senza che lei abbia fatto niente. Non ha commesso ingenuità, 
+
+**La morale** è insomma che il male a volte arriva a chi non se lo merita e non ha fatto niente per meritarselo. E a volte non c'è niente da fare per riuscire a combatterlo o a non farlo arrivare. In tutto questo c'entra anche la fede in Dio. Manzoni dice che è possibile avere la fede in Dio per prevenire il male, ma quest'ultima non può non fartelo venire ma può aiutarti a sopportarlo.
