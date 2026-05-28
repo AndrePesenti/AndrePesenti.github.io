@@ -1,4 +1,5 @@
 ---
-title: "Classe Quinta"
+title: "Storia"
 description: "Appunti di storia — classe quinta"
+weight: 2
 ---

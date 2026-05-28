@@ -1,0 +1,10 @@
+{{ $total := .ReadingTime }}
+{{ if .Pages }}
+  {{ range .Pages }}
+    {{ $total = add $total .ReadingTime }}
+  {{ end }}
+{{ end }}
+<span title="{{ i18n "article.reading_time_title" }}">
+  {{- i18n "article.reading_time" $total | markdownify | emojify -}}
+</span>
+{{- /* Trim EOF */ -}}

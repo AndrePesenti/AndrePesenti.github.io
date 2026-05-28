@@ -1,0 +1,30 @@
+{{ $pages := .pages }}
+{{ $depth := .depth | default 0 }}
+
+<ul class="list-none space-y-0.5 {{ if gt $depth 0 }}ps-5 border-l border-neutral-200 dark:border-neutral-700{{ end }}">
+  {{ range $pages }}
+    {{ if .IsSection }}
+      <li>
+        <details class="group" {{ if or (eq $.current.RelPermalink .RelPermalink) (strings.HasPrefix $.current.RelPermalink .RelPermalink) }}open{{ end }}>
+          <summary class="flex items-center gap-2 py-1.5 cursor-pointer select-none text-neutral-700 hover:text-primary-600 dark:text-neutral-300 dark:hover:text-primary-400 transition-colors {{ if eq $depth 0 }}text-base font-medium{{ else }}text-sm{{ end }}">
+            <span class="text-[0.6rem] opacity-50 transition-transform group-open:rotate-90">▶</span>
+            <a href="{{ .RelPermalink }}" class="hover:underline {{ if eq $.current.RelPermalink .RelPermalink }}text-primary-600 dark:text-primary-400 font-semibold{{ end }}" onclick="event.stopPropagation()">
+              {{ .Title }}
+            </a>
+          </summary>
+          {{ if .Pages }}
+            {{ partial "menu-tree.html" (dict "pages" .Pages "depth" (add $depth 1) "current" $.current) }}
+          {{ end }}
+        </details>
+      </li>
+    {{ else }}
+      <li>
+        <a href="{{ .RelPermalink }}"
+           class="block py-1.5 text-sm text-neutral-500 hover:text-primary-600 dark:text-neutral-400 dark:hover:text-primary-400 transition-colors
+           {{ if eq $.current.RelPermalink .RelPermalink }}text-primary-600 dark:text-primary-400 font-medium{{ end }}">
+          {{ .Title }}
+        </a>
+      </li>
+    {{ end }}
+  {{ end }}
+</ul>
