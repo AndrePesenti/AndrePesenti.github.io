@@ -2,6 +2,7 @@
 title: "Napoleone dopo la campagna d'Egitto"
 description: "Appunti su Napoleone dopo la campagna d'Egitto"
 date: 2026-05-28
+weight: 5
 tags: ["storia", "rivoluzione-francese"]
 showTableOfContents: true
 layout: scroll
