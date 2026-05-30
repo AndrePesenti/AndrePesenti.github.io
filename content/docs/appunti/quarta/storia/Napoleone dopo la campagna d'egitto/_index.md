@@ -86,4 +86,38 @@ In seguito a questo, Napoleone è costretto ad abdicare e viene isolato all'isol
 **Questo è il primo esilio di 2 di Napoleone**
 
 ## Esilio di Napoleone e ritorno
-Continuare da qui.......
+Nel 1814 riesce ad evadere dall'isola d'Elba e a sbarcare sulle coste francesi, dove viene accolto a braccia aperte. Mentre il re non viene ben acclto dato che il popolo era reduce della rivoluzione, quindi contro l'assolutismo. 
+
+## 1° maggio 1815 - Ultimi 100 giorni di Napoleone
+Il re fugge e Napoleone si fa dichiarare nuovamente imperatore.
+
+L'unico problema che ha è che nel corso della sua carriera si è fatto molti nemici. Quindi ci sono numerose persone e numerosi stati che sono contro di lui. 
+
+Ormai il suo esercito non è più nemmeno forte e numeroso come quello di una volta, quindi se vuole sconfiggere tutti i suoi nemici, lo deve fare separatamente e non tutti assieme. 
+
+## Battaglia di Waterloo
+Avviene nel 1815 a giugno, è contro tutti i paesi: Inghilterra, Austria, Russia e Prussia.
+
+Prima di arrivare a Waterloo Napoleone aveva già in mente di affrontare un paese alla volta siccome era consapevole di non vincere contro tutti contemporaneamente. 
+
+Prima della battaglia affronta i prussiani e li sconfigge. 
+
+Napoleone deve "inseguire" Wellington e l'esercito inglese siccome non voleva affrontare la guerra. Si ferma solamente nel momento in cui i prussiani promettono di arrivare per aiutarlo ed iniziare la battaglia. 
+
+### 1° Fase
+Napoleone manda avanti un corpo nell'ala di territorio in cui sapeva che gli inglesi erano più scarsi (quello dove sapevano che avrebbero avuto bisogno dei prussiani). Tuttavia, l'esercito francese si disperde perchè erano poco disciplinati. 
+
+### 2° Fase
+Napoleone manda avanti la sua cavalleria, la difesa dei nemici è lo schieramento dell'esercito in quadrati. Era un modo per combattere la cavalleria di Napoleone. 
+
+C'era un ufficiale in mezzo che diceva ai soldati che cosa dovevano fare. I soldati dovevano necessariamente ubbidire anche se erano terrorizzati. Per fare questo l'esercito doveva essere estremamente disciplinato. 
+
+I francesi non riescono a trovare alcun modo per disfare questi quadrati (i cavalli non attaccano). 
+
+Quando i quadrati stanno per cedere, i prussiani obbligano Napoleone ad inviare i suoi battaglioni di riserva (erano 37 e a Napoleone ne rimangono 11). 
+
+Con questi ultimi 11 battaglioni, Napoleone sferra un attacco, al quale gli inglesi rispondono con tutto l'esercito sconfiggendoli.
+
+Napoleone è costretto ad **abdicare** e viene mandato in esilio questa volta su un'isola molto sperduta e con poche comunicazioni con l'esterno: **Sant'Elena.**
+
+**Il 5 maggio del 1821 muore sull'isola.**
