@@ -25,4 +25,19 @@ Questo congresso viene riunito mentre Napoleone è sull'isola d'Elba e dura fino
 Questo progetto non ha successo visto che ci sono alcune insurrezioni: **i moti**. In seguito ai quali si crea una nuova mentalità: non possono tornare a come era prima. 
 
 ## Moti
-RT5
+I moti erano delle rivolte principalmente borghesi con l'obiettivo di abbattere l'antico regime e l'assolutismo che, con il congresso di Vienna, si voleva restaurare. 
+
+In tutti e 3 i moti, per soffocarli, veniva in soccorso la Santa Alleanza del congresso di Vienna. 
+
+1. **1820-1821**
+<br>Questa insurrezione viene organizzata da militari in Spagna, ma si propagherà velocemente anche negli stati vicini. In particolare, volevano che si creasse una costituzione e che l'assolutismo fosse abbattuto. 
+<br>Nell'immediato hanno successo (riescono a convincere i sovrani a creare una costituzione), ma queste costituzioni vennero abbattute dopo poco tempo. 
+<br>Hanno quindi un bilancio negativo: troppi morti e non sono riusciti a raggiungere il loro obiettivo a lungo termine. 
+<br>L'unica eccezione è **la Grecia**: volevano ribellarsi nei confronti del potere degli ottimani e iniziano una guerra che durerà fino al 1829. Gli ottomani si trovano in una situazione peggio di quella precedente.
+
+2. **1830-1831**
+<br>Questa rivolta risulta meno violenta della prima ma anche questa con scarsi risultati. Anche qui la rivolta si propaga dalla Francia e i risultati sono scarsi ad eccezione del **Belgio**. Qui riescono ad ottenere **l'indipendenza dei paesi bassi (Olanda).**
+
+3. **1848**
+<br>Viene anche chiamata *"Primavera dei popoli"* perchè proprio loro sono i protagonisti. C'è un cambiamento perchè verranno coinvolte anche le fasce più basse della popolazione. 
+<br>In particolare in Italia, Mazzini pensa ad un nuovo modo per strutturare e rendere più efficienti le **società segrete.** 
