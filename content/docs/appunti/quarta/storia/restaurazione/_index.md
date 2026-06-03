@@ -200,3 +200,25 @@ I suoi pensieri erano:
 - Per lui il concetto di **popolo** rappresenta **un insieme di persone unite,** secondo lui le idee socialiste dividevano il popolo. 
 <br>Per esempio, Marx che incoraggiava la lotta di classe tra borghesi e nobili.
 <br>Mazzini si potrebbe definire come democratico e non come socialista o comunista, per il suo progetto di una nuova Italia vuole eliminare completamente l'assolutismo e vuole un'Italia unita e non federale.
+
+## Giovane Italia - 1831
+Non è più un'organizzazione segreta, tutte le persone che ne fanno parte vengono messe a conoscenza di tutto. Con questa società Mazzini vuole risolvere i problemi riscontrati nelle società segrete precedenti. 
+<br>Secondo lui, entrare in questa società significava anche avere la possibilità di imparare molto cose sulla politica e di conoscere pensatori molto famosi.
+
+**Vuole una repubblica - deve essere unitaria - popolo alla guida**
+
+## Gioberti - Teoria neoguelfa
+I guelfi erano i sostenitori del papa
+
+Secondo Gioberti, affidare il processo di governo al popolo non andava bene. Secondo lui doveva essere affidato al papa e alla chiesa.
+
+Inoltre, pensava che lo stato non dovesse essere unitario, ma federale: questo perchè gli stati italiani erano troppo diversi tra loro e di conseguenza dovevano rimanere separati.
+
+Infine, secondo lui, doveva essere una monarchia e non una repubblica.
+
+**Vuole una monarchia - deve essere federale - popolo alla guida**
+
+## Cattaneo
+Vuole una repubblica, era un democratico, e voleva che fosse federale sempre per il motivo che gli stati italiani erano troppo diversi.
+
+**Vuole una repubblica - deve essere federale - chiesa alla guida**
