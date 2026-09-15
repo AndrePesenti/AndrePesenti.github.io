@@ -1,5 +1,5 @@
 ---
-title: "Elementi di DevOps - Guida completa virtualizzazione e Container"
+title: "Elementi di DevOps"
 description: ""
 date: 2026-09-15
 draft: false
@@ -8,6 +8,7 @@ showTableOfContents: true
 layout: scroll
 ---
 
+# Guida completa virtualizzazione e Container
 **Cosa fa un virtualizzatore?** Il virtualizzatore serve ad emulare un'archtettura hardware, che viene quindi emulata tramite software.
 
 In un sistema virtualizzato sono presenti 2 sottosistemi:
