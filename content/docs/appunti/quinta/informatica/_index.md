@@ -1,5 +1,5 @@
 ---
-title: "Storia"
-description: "Appunti di storia — classe quinta"
+title: "Informatica"
+description: "Appunti di informatica — classe quinta"
 weight: 2
 ---
