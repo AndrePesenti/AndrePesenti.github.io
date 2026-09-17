@@ -69,3 +69,54 @@ E' lo strumento di orchestrazione di primo livello per ambienti di sviluppo e te
 Permette di gestire un'applicazione multi-container attraverso un singolo file di configurazione.
 
 Un enorme **punto di forza** è che è capace di replicare un'intera architettura sofrtware con un unico comando (docker-compose up).
+
+## Comandi di base di Docker
+
+### Lanciare un nuovo container
+``` bash
+docker run nome-immagine
+```
+
+Questo comando con run ogni nuova che viene lanciato lancia un nuovo container quindi se ne devo riutilizzare uno già esistente non va bene ma devo utilizzare un altro comando.
+
+Se l'immagine inserita non è scaricata localmente la scarica in automatico.
+
+### Mostrare tutti i container attivi
+``` bash
+docker ps
+```
+
+Questo comando mostra solamente quelli attualmente in esecuzione.
+
+``` bash
+docker ps -a
+```
+
+Questo li mostra tutti (anche quelli precedentemente in esecuzione).
+
+### Fermare un container
+``` bash
+docker stop container_id
+```
+
+### Rimuovere un container
+``` bash
+docker rm container_id
+```
+
+### Eseguire un container con l'opzione di rimozione automatica all'uscita del processo
+``` bash
+docker run -d --rm ubuntu sleep 20
+```
+
+Questo comando *"-d"* permette di non bloccare la shell ma di continuare a utilizzarla anche metre il container è in esecuzione. *"--rm"* lo rimuove al termine di quello che deve fare.
+
+### Visualizzare l'elenco delle immagini scaricare
+``` bash
+docker images
+```
+
+### Rimuovere immagini
+``` bash
+docker rmi id_immagine
+```
