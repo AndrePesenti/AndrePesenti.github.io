@@ -104,7 +104,7 @@ docker stop container_id
 docker rm container_id
 ```
 
-### Eseguire un container con l'opzione di rimozione automatica all'uscita del processo
+### Eseguire un container con rimozione automatica
 ``` bash
 docker run -d --rm ubuntu sleep 20
 ```
