@@ -15,7 +15,7 @@ math: true
 
 
 
-### Esempio
+**Esempio**
 
 \(f(x) = 2x \quad D: \mathbb{R}\)
 
