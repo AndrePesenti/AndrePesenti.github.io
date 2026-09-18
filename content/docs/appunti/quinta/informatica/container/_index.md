@@ -94,6 +94,11 @@ docker ps -a
 
 Questo li mostra tutti (anche quelli precedentemente in esecuzione).
 
+### Far partire container esistente
+``` bash
+docker start container_id
+```
+
 ### Fermare un container
 ``` bash
 docker stop container_id
@@ -111,7 +116,6 @@ docker run -d --rm ubuntu sleep 20
 
 Questo comando *"-d"* permette di non bloccare la shell ma di continuare a utilizzarla anche metre il container è in esecuzione. *"--rm"* lo rimuove al termine di quello che deve fare.
 
-### Visualizzare l'elenco delle immagini scaricare
 ``` bash
 docker images
 ```
@@ -119,4 +123,12 @@ docker images
 ### Rimuovere immagini
 ``` bash
 docker rmi id_immagine
+```
+
+### Varianti comandi
+```bash
+-i: permette di avere accesso allo standard input del container ma per poter interagire con esso 
+di solito occorre abilitare anche l'opzione -t
+-t: spiegato sopra
+-d: modalità detached - la shell continua a essere utilizzabile e non si blocca
 ```
