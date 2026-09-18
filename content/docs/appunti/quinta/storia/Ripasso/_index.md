@@ -16,7 +16,7 @@ E' l'anno della **prima guerra d'indipendenza**
 
 In quest'anno viene pubblicato un libro importantissimo che cambia la storia. Il **manifesto del martito comunista** di Marx. 
 
-## Cosa succede in Italia
+## COSA SUCCEDE IN ITALIA
 Si inizia a fare più sul serio grazie ad una nuova idea di Mazzini: **la nuova visione delle società segrete**.
 
 **Garibaldi:** altro personaggio fondamentale per la rivoluzione (condividevano molte idee).
@@ -41,7 +41,7 @@ Quello che ha cercato di ucciderlo era **Orsini**, che era arrabbiato per l'abba
 
 Napoleone quando si rende conto che ad aver tentato di ucciderlo è un italiano si ricorda delle parole di Cavour e decide di allearsi con gli italiani tramite gli **accordi di Plombieres**.
 
-## 2° Guerra d'Indipendenza
+## 2° GUERRA D'INDIPENDENZA
 Esito migliore rispetto alla prima ma comunque non ottimo.
 
 L'Italia con la Francia riportano una serie di vittorie. A un certo punto Napoleone capisce che sta avendo troppi morti e si ritira firmando **larmistizio di Villafranca (1859).** Anche perchè la Francia non voleva che i savoia prendessero troppo potere.
@@ -56,7 +56,56 @@ Garibaldi parte da Quarto (1860) e sbarca in Sicilia a Marsala. Il piano riesce 
 
 **17 marzo 1861 il parlamento di Torino dichiara il regno d'Italia"**.
 
-## 1866 - Terza Guerra d'Indipendenza
+## 1866 - TERZA GUERRA D'INDIPENDENZA
 E' la guerra in cui l'Italia riesce ad acquisire anche il Veneto.
 
-Bismark è un cancelliere prussiano.
+Bismark è un cancelliere prussiano. Pone un obiettivo: **unificazione tedesca.**
+<br>E' molto diversa da quella italiana. Questa è stata ottenuta solamente dall'alto (Bismark), mentre quella italiana c'era una forte presenza del popolo che ha aiutato.
+
+Ci sono state 2 guerre principali:
+
+## GUERRA TRA PRUSSIA E AUSTRIA
+1866 - La Prussia dichiara dichiara guerra all'Austria: **terza guerra d'indipendenza.**
+
+Il bilancio di questa guerra è positivo per la Prussia che ottiene il veneto. 
+
+## GUERRA TRA PRUSSIA E FRANCIA
+Guerra franco-prussiana
+
+Questa guerra scoppia perchè Bismark trucca le carte e provoca i francesi che cascano nella trappola e dichiarano guerra ai prussiani. 
+
+Questa guerra è una battaglia perchè dura pochissimo (dura un paio di giorni). 
+
+Termina con la **sconfitta di Sedan**: vittoria estrema della Prussia.
+
+Questo è un disonore incredibile per i Francesi perchè sono costretti ad arrendersi. 
+
+A Parigi si instaura una **nuova forma di governo:** il **comune**, in cui viene restaurato il calendario rivoluzionario. 
+
+Bismark può finalmente fare l'unificazione tedesca ma per umiliare ancora di più i francesi decide di organizzare una cerimonia a Versaille dove dichiara l'unificazione tedesca. 
+
+### Conquista dello stato della chiesa
+La chiesa aveva lo stato dei francesi a proteggerla. Che ovviamente adesso erano estremamente indeboliti. 
+
+Quindi dopo la battaglia gli italiani riescono ad entrare nello stato della chiesa attraverso Breccia di Porta Pia nel 1870. 
+
+La capitale diventa Roma ma i rapporti erano molto tesi.
+
+## ITALIA UNITA
+*"Fatta l'Italia bisogna fare gli italiani"*
+
+L'Italia era un paese col popolo diviso.
+- Lingua
+- Forte disomogeneità (sia economica che culturale scolastica e di alfabetizzazione)
+- Fino a poco tempo prima c'erano monete e unità di misura diverse
+
+A sistemare questi problemi c'era il parlamento. La politica riguarda solo i più potenti e ricchi.
+- 1861-1876 --> destra storica
+- 1876-1896 --> sinistra storica
+<br>Non c'era uno schieramento netto ma si andava intorno a cosa faceva comodo al momento e non in base a idee. 
+
+*Trasformismo: vignetta vista in classe*
+
+### Impresa coloniale
+E' il tentativo di prendere il controllo dell'Africa. L'Italia si lancia in Etiopia con la sinistra storica. 
+<br>**Riporta sconfitte terribili - 1896 sconfitta di Adua**
