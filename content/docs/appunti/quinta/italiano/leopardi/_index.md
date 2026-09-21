@@ -8,6 +8,96 @@ showTableOfContents: true
 layout: scroll
 math: true
 ---
+## VITA
+Nasce a Recanati nel 1978
+
+C'era già la rivoluzione francese e nuovi ideali. 
+
+A Recanati (marche) questi ideali non erano ben accolti.
+
+Era figlio di una famiglia aristocratica (cattolica). La madre aveva impartito ai figli una fortissima educazione religiosa. 
+
+Era primogenito quindi si puntava tutto su di lui.
+
+### Madre
+- Ossessione per la religione.
+- Si dedica a una vita di rinunce per ricolmare le finanze.
+- Era molto tirchia.
+- Attenzione ossessiva per le finanze.
+
+### Padre
+Era un **erudito:** per lui lo studio e la conoscenza era il valore più alto. Spende molto nei libri. 
+
+Aveva una biblioteca di famiglia.
+
+Le uniche gioie della sua vita sono i suoi fratelli. 
+
+Leopardi si segnala fin da subito per un talento straordinario --> lo studio.
+<br>Già all'età di 14 anni il prete dice che non ha più niente da insegnargli.
+
+Nel 1817 inizia a scriversi delle lettere (corrispondenza) con **Pietro Giordani.** Era un liberale e critico letterario.
+<br>Comunicava con lui solo via lettera.
+
+La corrispondenza va avanti un bel po' finchè Giordani non gli scrive una cosa sensazionale --> che lo andrà a trovare di persona (per lui era un onore). 
+
+Leopardi ha molti problemi fin dall'adolescenza: 
+- Ha 2 gobbe
+- Spina dorsale storta
+- Alto 1.40m
+
+Aveva una salute molto cagionevole, per questo preferiva una carriera ecclesiastica (vita più leggera).
+
+Lo zio lo vuole portare a Roma ma il padre (che era molto legato al figlio) dice di no. 
+<br>Il padre era d'accordo con l'idea di carriera ecclesiastica ma senza uscire da Recanati perchè uscire significava essere esposti ad altri pensieri.
+
+Si definisce un autore classico.
+
+Pietro Giordani gli fa visita e succede un *"patatrac".*
+<br>Arriva a Recanati e ha idee completamente diverse da quelle del padre di Leopardi. Infatti lui e i fratelli sono felicissimi mentre la madre e il padre meno. 
+<br>Un giorno il padre non trovava i figli e quindi li cerca e scopre che sono andati con Giordani (avevan preso una carrozza). Il padre si arrabbia.
+<br>Inoltre quando Giordani dice la parola *rivoluzione* il padre si inalbera.
+<br>A questo punto Leopardi capisce di non poter più restare a Recanati e tenta una fuga --> nel 1821 appena era diventato maggiorenne.
+<br>Dopo la tentata fuga c'è un confronto tra lui, il padre e lo zio.
+<br>Si vede come voleva reagire (urlare e infuriarsi) ma poi si capisce come in realtà quella era solo immaginazione e le parole le pronuncia con un tono normale molto basso. 
+
+Nel 1819 dopo tutta questa situazione, scrive **l'infinito.**
+
+## L'INFINITO
+E' una poesia romantica (già il titolo lo fa pensare), ma ha certi tratti illuministi.
+
+### Di cosa parla
+In questa poesia si chiede che cosa ci sia dall'altra parte della siepe. L'infinito ha più o meno lo stesso concetto.
+
+Leopardi ha un punto di vista che rovescia le carte in tavola. 
+<br>Per Leopardi il fatto che un uomo abbia un limite (l'uomo ha una fine), diventa proprio quello che permette di far capire il concetto dell'infinito.
+
+in questa poesia si racconta di come in qualche modo l'uomo possa abbattere questi limiti. 
+<br>Questo modo è *l'immaginazione.*
+
+**L'esistenza di un limite è la pre-condizione fondamentale per accedere all'infinito.**
+
+Questo limite in questa poesia è la siepe.
+
+![Esempio](immagine_infinito.jpeg)
+
+E' importante il fatto del colle perchè se non ci fosse la siepe essendo su un'altura si sarebbe visto il panorama. 
+<br>**L'esistenza del limite (questa siepe), è la pre-condizione fondamentale per far usare l'immaginazione a Leopardi.**
+
+Questa poesia è a tratti illuminista perchè contiene argomentazioni chiare.
+
+Inizia col raccontarci che c'è qualcosa che gli esclude la possibilità di vedere gran parte del panorama. 
+<br>Poi c'è un **ma** che fa capire che la frase dopo è in contraddizione a quella prima.
+<br>Successivamente al ma, con la frase retta da *"io nel pensier mi fingo"*, ci dice che lo sa che è una finta e che è immaginazione. --> sa che è una finta perchè lo dice.
+
+Successivamente dice *"ove per poco il cor non si spaura"* --> dice che questo luogo a dove lui accede per poco non lo fa spaventare.
+
+Nella prima parte della storia chiamava la siepe *"questa"*, nella seconda parte invece la chiama *"quella"* --> ha iniziato il viaggio e l'ha oltrepassata.
+
+Poi la chiama di nuovo *"questa"* --> è tornato di qua. Viene richiamato di qua a causa del vento.
+
+A questo punto con *"sovvien l'inverno"* dice che gli viene in mente un tempo eterno (richiama l'infinito). 
+
+**L'infinito nella prima parte è un infinito spaziale, mentre nella seconda è un infinito temporale.** 
 
 ## OPERETTE MORALI
 E' un'opera molto particolare
