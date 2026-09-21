@@ -85,3 +85,29 @@ La risposta avviene nel finale e non è parlata ma sono fatti (sono 2 finali).
 Arrivano 2 leoni che mangiano l'islandese e vivono ancora solo 1 giorno.
 
 Arriva il vento che lo stende a terra e lo mummifica (seppellito sotto la sabbia), successivamente dei viaggiatori lo trovano e lo portano in un museo.
+
+Entrambi i 2 finali sono molto sbrigativi.
+
+Il fatto dei 2 finali ci comunica che l'islandese è morto ma non si sa come o ci sono dei dubbi su come sia morto.
+
+Siccome lui muore l'idea centrale di questo testo è che **la natura è sopra a tutto (più forte).**
+
+La natura è sempre stata di poche parole infatti nel finale passa direttamente ai fatti. 
+
+In questo testo l'islandese crea una sorta di "legame" col lettore perchè tratta cose che riguardano tutti. Questa cosa del finale che viene liquidato così velocemente + l'incertezza della sua morte contribuisce molto a dare l'idea di incuranza. Questo stride un po col testo perchè si era creato un legame tra lettore e islandese.
+
+#### I 2 finali
+**Primo finale:** i 2 leoni seguono la legge del più forte ma erano così affamati che nonostante avessero mangiato l'islandese sopravvivono solamente per un altro giorno.
+
+**Secondo finale:** il narratore quando racconta della sorte dell'islandese sembra che lo faccia quasi con divertimento. 
+<br>Ciò che si può concludere è che tutto quello che ha fatto non è servito a niente. Però da mummia viene riportato in un museo.
+<br>La sua vita era quindi qualcosa da ammirare in un museo, ma di fatto era una cosa totalmente inutile.
+
+**In questo testo Leopardi passa da pessimismo storico a pessimismo cosmico.**
+
+### PESSIMISMO COSMICO
+La natura inizia ad essere vista come una matrigna perchè **è la natura ad averlo messo in quella situazione.**
+
+**Questo testo è una fortissima condanna dell'antropocentrismo**, ovvero della credenza che l'uomo sia al centro di tutto. Di conseguenza è un **testo anti illuminista** in quanto l'illuminismo si basava sull'uomo al centro di tutto. 
+
+inoltre l'idea di questa natura indomabile rimanda al romanticismo. 
