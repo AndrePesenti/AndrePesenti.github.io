@@ -56,7 +56,7 @@ In cui \(f(x)\) è la *funzione integranda*, \(dx\) il *differenziale* e \(c\) l
 ### Integrale di una potenza
 \[\int x^\alpha \, dx = \frac{x^{\alpha+1}}{\alpha+1} + C, \quad C \in \mathbb{R}\]
 
-Questa formula vale soltanto quando \alpha \neq -1 perchè altrimenti avrei *0* al denominatore.
+Questa formula vale soltanto quando *α ≠* -1 perchè altrimenti avrei *0* al denominatore.
 #### Esempio 
 \[\int \sqrt{x} \, dx = \int x^{\frac{1}{2}} \, dx = \frac{x^{\frac{1}{2}+1}}{\frac{1}{2}+1} + C = \frac{x^{\frac{3}{2}}}{\frac{3}{2}} + C = \frac{2}{3}x^{\frac{3}{2}} + C = \frac{2}{3}x\sqrt{x} + C, \quad C \in \mathbb{R}\]
 
