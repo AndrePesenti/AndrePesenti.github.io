@@ -104,8 +104,13 @@ A sistemare questi problemi c'era il parlamento. La politica riguarda solo i piÃ
 - 1876-1896 --> sinistra storica
 <br>Non c'era uno schieramento netto ma si andava intorno a cosa faceva comodo al momento e non in base a idee. 
 
-*Trasformismo: vignetta vista in classe*
+**Trasformismo:** Ã¨ una prassi politica con la quale i plitici tendevano a formare alleanze non sulla base di ideologie ma sulla base di una convenienza del momento.
 
 ### Impresa coloniale
 E' il tentativo di prendere il controllo dell'Africa. L'Italia si lancia in Etiopia con la sinistra storica. 
 <br>**Riporta sconfitte terribili - 1896 sconfitta di Adua**
+
+Ci prova sia la destra che la sinistra. 
+
+**Imperialismo:** Marx aveva teorizzato un concetto da una definizione:
+<br>*Imperialismo fase suprema del capitalismo*

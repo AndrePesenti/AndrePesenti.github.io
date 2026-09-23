@@ -60,6 +60,21 @@ Questa formula vale soltanto quando *α ≠* -1 perchè altrimenti avrei *0* al 
 #### Esempio 
 \[\int \sqrt{x} \, dx = \int x^{\frac{1}{2}} \, dx = \frac{x^{\frac{1}{2}+1}}{\frac{1}{2}+1} + C = \frac{x^{\frac{3}{2}}}{\frac{3}{2}} + C = \frac{2}{3}x^{\frac{3}{2}} + C = \frac{2}{3}x\sqrt{x} + C, \quad C \in \mathbb{R}\]
 
+### Integrale di \(\frac{1}{x}\)
+$$\int \frac{1}{x} \, dx = \ln|x| + C \quad C \in \mathbb{R}$$
+
+## PRINCIPI DI LINEARITA'
+### Primo principio
+> L'integrale della somma è la somma degli integrali.
+
+\(f(x)\) e \(g(x)\) integrabili in *I*
+
+$$\int [f(x) + g(x)] \, dx = \int f(x) \, dx + \int g(x) \, dx$$
+
+### Secondo principio
+> L'integrale di una costante \(k \cdot f(x)\) è *k* volte lintegrale di \(f(x)\).
+
+$$\int k f(x) \, dx = k \int f(x) \, dx$$
 
 
 

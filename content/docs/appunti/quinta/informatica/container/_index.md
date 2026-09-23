@@ -202,3 +202,20 @@ E' un collegamento tra la cartella locale e una cartella all'interno del contain
 docker run --name some-nginx -v /some/content:/usr/share/nginx/html:ro -d nginx
 ```
 In questo caso capisto che si tratta di bind mouths perchè dopo *-v* ho */some/content:/usr/share/nginx/html* quindi un percorso di cartella. 
+
+## COMANDI MySQL
+```sql
+mysql -u root -p [password]
+```
+
+Questo comando sto dicendo a sql che entro come *root* e la password per proteggere.
+
+- *-u* dice come sto entrando
+- *-p* dice qual'è la password
+
+### Creare collegamento container-to-container
+Per farlo devo conoscere l’indirizzo ip del container a cui voglio fare il collegamento. 
+
+Quindi faccio *docker inspect [id container]* di quello di cui mi serve sapere l'indirizzo IP.
+
+A questo punto copio l'IP e lo incollo nel comando *(docker run...)* del container client che devo creare.
