@@ -219,3 +219,4 @@ Per farlo devo conoscere l’indirizzo ip del container a cui voglio fare il col
 Quindi faccio *docker inspect [id container]* di quello di cui mi serve sapere l'indirizzo IP.
 
 A questo punto copio l'IP e lo incollo nel comando *(docker run...)* del container client che devo creare.
+

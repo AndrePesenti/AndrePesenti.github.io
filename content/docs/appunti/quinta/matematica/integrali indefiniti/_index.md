@@ -57,11 +57,37 @@ In cui \(f(x)\) è la *funzione integranda*, \(dx\) il *differenziale* e \(c\) l
 \[\int x^\alpha \, dx = \frac{x^{\alpha+1}}{\alpha+1} + C, \quad C \in \mathbb{R}\]
 
 Questa formula vale soltanto quando *α ≠* -1 perchè altrimenti avrei *0* al denominatore.
-#### Esempio 
-\[\int \sqrt{x} \, dx = \int x^{\frac{1}{2}} \, dx = \frac{x^{\frac{1}{2}+1}}{\frac{1}{2}+1} + C = \frac{x^{\frac{3}{2}}}{\frac{3}{2}} + C = \frac{2}{3}x^{\frac{3}{2}} + C = \frac{2}{3}x\sqrt{x} + C, \quad C \in \mathbb{R}\]
+
 
 ### Integrale di \(\frac{1}{x}\)
 $$\int \frac{1}{x} \, dx = \ln|x| + C \quad C \in \mathbb{R}$$
+
+### Integrale di \(e^x\)
+$$\int e^x \, dx = e^x + C \quad C \in \mathbb{R}$$
+
+### Integrale di \(a^x\)
+$$\int a^x \, dx = \frac{a^x}{\ln a} + C \quad C \in \mathbb{R}$$
+
+### Integrale di \(\sin x\)
+$$\int \sin x \, dx = -\cos x + C \quad C \in \mathbb{R}$$
+
+### Integrale di \(\cos x\)
+$$\int \cos x \, dx = \sin x + C \quad C \in \mathbb{R}$$
+
+### Integrale di \(\frac{1}{\cos^2 x}\)
+$$\int \frac{1}{\cos^2 x} \, dx = \tan x + C \quad C \in \mathbb{R}$$
+
+### Integrale di \(1 + \tan^2 x\)
+$$\int (1 + \tan^2 x) \, dx = \tan x + C \quad C \in \mathbb{R}$$
+
+### Integrale di \(\frac{1}{\sin^2 x}\)
+$$\int \frac{1}{\sin^2 x} \, dx = -\cot x + C \quad C \in \mathbb{R}$$
+
+### Integrale di \(\frac{1}{1 + x^2}\)
+$$\int \frac{1}{1 + x^2} \, dx = \arctan x + C \quad C \in \mathbb{R}$$
+
+### Integrale di \(\frac{1}{\sqrt{1 - x^2}}\)
+$$\int \frac{1}{\sqrt{1 - x^2}} \, dx = \arcsin x + C \quad C \in \mathbb{R}$$
 
 ## PRINCIPI DI LINEARITA'
 ### Primo principio
