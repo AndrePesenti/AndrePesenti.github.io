@@ -108,3 +108,48 @@ Per creare una pagina si prosegue quindi come segue:
 
 Si visualizzerà la seguente pagina:
 ![Esempio](screen_pagina.png)
+
+## STRUTTURA DELL'HTML
+La struttura dell'html si chiama **dom** --> Document Object Model.
+![Esempio](dom.png)
+
+Ci sono elementi che possono e non possono contenere dei figli. Per esempio:
+- H1 può contenere dei figli (h2, h3…).
+- Img non può contenere figli.
+
+Ogni tag html contiene degli attributi che hanno dei valori predefiniti che poi posso modificare nel seguente modo: all’interno del tag posso scrivere posso scrivere attributo = valore. 
+
+```html
+<span> 
+
+Il tag span è un tag inline: non da l'invio ma scrive sulla stessa riga.
+```
+
+```html
+<p>
+
+E' un blocco, da un invio sia prima che dopo.
+```
+
+```html
+<span style = "color:[colore]">
+
+Serve per dare un colore al testo racchiuso tra i due tag span.
+```
+
+```html
+<img src="/[percorso]" alt = "[testo]">
+
+Serve per mettere una immagine al percorso esatto specificato. Il percorso serve per mostrare l’immagine mentre l’attributo alt serve per mostrare un’alternativa in caso l’immagine non venga caricata. È possibile caricare anche un’immagine dal web incollando l’indirizzo non link ma l’indirizzo dell’immagine che si prende facendo copia indirizzo immagine. 
+
+Per ridimensionare l’immagine ci sono 2 attributi che possiamo usare: width o height. Non devo mai impostare tutti e due perché altrimenti l’immagine si sforma, se imposto uno l’altro è automatico. 
+```
+
+```html
+<div>
+
+Si comporta come blocco ma a differenza di p non ha un margine aggiuntivo. Si comporta da divisore. Serve per dividere la pagina in vari blocchi. 
+```
+
+### Esempio
+![Esempio](screen_esempio.png)

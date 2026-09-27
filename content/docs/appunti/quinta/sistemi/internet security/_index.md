@@ -29,3 +29,15 @@ Nasce quindi un documento chiamato **X.800** e pone dei protocolli agli standard
 3) **Confidenzialità** --> protezione riservatezza dei dati.
 4) **Integrità** --> assicurarsi che i dati non siano stati alterati.
 5) **Non ripudiabilità** --> protezione contro la negazione di un soggetto coinvolto nella comunicazione. 
+
+## TECNICHE DI CRITTOGRAFIA
+Ci sono diverse tipologie di attacchi:
+- **Attacco passivo (sniffing):** è un attacco che sta solo a guardare e prendere info. La comunicazione viene ascoltata in maniera non autorizzata.
+- **Falsificazione dell'identità (spoofing):** A comunica con B spacciandosi per C.
+- **Negazione della paternità:** A nega di aver inviato un precedente messaggio.
+- **Attacco attivo:** A e B comunicano, C intercetta i messaggi e li sostituisce con altri.
+- **Rifiuti di servizio:** compromissione o disattivazione in modo non autorizzato di alcuni servizi di rete.
+
+Esiste quindi la **stenografia** ovvero l'insieme delle tecniche che permettono di nascondere l'esistenza di un messaggio o della comunicazione stessa. Non è quindi la **crittografia.**
+
+La **crittografia** è quindi la tecnica per la quale non viene nascosto il messaggio ma bensì il suo contenuto.
