@@ -153,3 +153,45 @@ Si comporta come blocco ma a differenza di p non ha un margine aggiuntivo. Si co
 
 ### Esempio
 ![Esempio](screen_esempio.png)
+
+```html
+<meta>
+
+E' un tag che va inserito all’interno di head e serve per pubblicare dei meta dati o delle informazioni che i browser leggono per capire come la pagina dovrebbe comportarsi. 
+Dentro al tag meta vengono messi gli attributi charset e altri attributi come name, content. Come nell’esempio sotto. 
+```
+
+**Impostare un linguaggio:** se dentro al tag iniziale html metto lang=”it” il testo sarà in italiano. Se non imposto il lang sarà di default in inglese. 
+
+```html
+<a href=”[link]” target=””>[Testo che compare linkato]<a>
+
+E' un tag che stabilisce il collegamento tra una pagina e un’altra. È un tag inline, quindi se metto 2 link saranno uno in fianco all’altro e non uno sotto l’altro. L’attributo target=”” serve per determinare dove aprire il link (se in una nuova scheda). Se dopo = metto _blank apre in una nuova scheda altrimenti no, si usa principalmente per siti esterni. Se invece metto _self rimane nello stesso tab.  
+```
+
+```html
+Se dentro un tag <a> un id posso richiamarlo in un altro tag <a> precedento il nome dell’id con un #.
+Per esempio: <a id=”titolo><a> e successivamente potrò richiamarlo con <a href=”#titolo”>[Testo]<a>
+```
+### Esempio
+![Esempio](screen_esempio2.png)
+
+```html
+<from>
+
+Serve per definire il form.
+<form action=”index.html” method=”get”> serve per fare un form ed invia le informazioni a index.html, mentre method=”get” serve per dichiarare il metodo utilizzato per inviare le informazioni. 
+```
+
+```html
+<input>
+
+Non richiede l’apertura perché viene inclusa nella chiusura stessa. 
+Per esempio <input type=”text” placeholder=”Nome”/> mette una casella dove posso scrivere testo, quando questa è vuota ci sarà la scritta Nome.
+
+C’è un altro attributo ovvero button che serve per fare i bottoni. 
+Per esempio: <input type="button" value="Invia">
+```
+
+### Esempio
+![Esempio](screen_esempio3.png)
