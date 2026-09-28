@@ -86,3 +86,15 @@ Se il narratore si fa sentire di meno all'interno del testo si vede di più la r
 
 ### Come viene ottenuta l'impersonalità
 1) **Descrizioni:** sono molto dettagliate e vengono condotte attraverso gli occhi di un personaggio ma questo non viene detto.
+<br>E' come se il narratore si immedesimasse in Emma (è lei che ha vissuto le cose).
+<br>Questa è una tecnica utilizzata per ottenere l'impersonalità. 
+<br>Prima si diceva "si vide", adesso "Emma vide".
+
+2) **DIL - Discorso indiretto libero:**
+- Discorso diretto: Emma pensò: "..."
+- Discorso indiretto: Emma pensò che ...
+<br>Il discorso indiretto libero è un mix tra questi 2: ci sono elementi simili al discorso indiretto come per esempio i tempi verbali e la voce che è sempre quella del narratore e non del personaggio che ha vissuto. Ma ci sono anche elementi del discorso diretto ovvero espressioni puramente colloquiali come *"chissà"* ecc.
+
+Tutto questo contrinuisce a dare impersonalità.
+
+Il narratore continua a mantenere il controllo ma raccontando sotto gli occhi di emma.
