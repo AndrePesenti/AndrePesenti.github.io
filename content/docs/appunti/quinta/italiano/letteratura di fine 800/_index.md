@@ -98,3 +98,57 @@ Se il narratore si fa sentire di meno all'interno del testo si vede di più la r
 Tutto questo contrinuisce a dare impersonalità.
 
 Il narratore continua a mantenere il controllo ma raccontando sotto gli occhi di emma.
+
+I segnali del discorso indiretto libero sono anche le frasi col !/? alle fine. Di solito le frasi che terminano in quel modo sono le esclamazioni dei personaggi.
+
+Questo è un romanzo che ha l'obiettivo di raccontare la realtà così com'è (anche negli aspetti sgradevoli).
+<br>Per esempio, Gericault che va nei manicomi e dipinge le facce delle persone ricoverate.
+
+Dal 1864 dopo il realismo e a partire da questo si sviluppa il **naturalismo francese.**
+
+## NATURALISMO
+Entrambi i movimenti hanno come base il realismo. 
+
+Il naturalismo può essere considerato il tentativo di trasferire tutti i principi del positivismo alla letteratura.
+
+### Zola
+Cerca di creare una letteratura che abbia come base i principi della scienza (non riuscirà)
+<br>Pubblica un saggio --> **1880 - Il Romanzo Sperimentale**. Un testo in cui va a spiegare il concetto di scrittore-scienziato. 
+
+1) **No rappresentazione del bello ma del vero** <br>
+Il vero è sempre bello anche se sgradevole.
+
+2) **Impersonalità** <br>
+Fa una metafora --> come un tecnico di laboratorio non ha emizioni per ciò che sta trattando, anche il narratore non deve affezionarsi ai personaggi.
+
+3) **Narrazione = esperimento di laboratorio** <br>
+Osservazione di un fatto --> un personaggio di una certa razza lo metto in una certa epoca in un certo luogo e sperimento cosa succede. 
+
+4) **No introspezione** <br>
+La vita interiore e i pensieri dei personaggi, il narratore deve limitarsi a ciò che è oggettivo e scientifico. La vita interiore è soggettiva e può essere inventata.
+
+5) **Romanzo** <br>
+Esiste solo il romanzo, la poesia è completamente esclusa.
+
+6) **Contenuti** <br>
+Esplorazione di tutte le classi sociali ma il narratore deve seguire un ordine. Deve partire dalle più basse perchè sono le più semplici per arrivare alle più alte ossia le più complesse.
+
+7) **La forma va in secondo piano** <br>
+Da il primo posto ai contenuti e al metodo con cui sono narrati. 
+
+### Zola - L'Assomoir
+1877 - L'Assomoir - L'Ammazzatoio
+
+Assomoir è il nome di un'osteria di bassissimo livello di Parigi in un quartiere abitato da persone di bassa classe sociale. 
+
+Tutti i personaggi o prima o poi finiscono all'osteria dove annegano i loro dispiaceri con l'alcool.
+
+**L'assomoir è un romanzo di denuncia** che vuole evidenziare la piaga dell'alcolismo. <br>
+La volontà di denuncia è un altro elemento fondamentale del positivismo. <br>
+Zola punta a dare il suo contributo al progresso della società. 
+
+**Esempio:**
+
+Gervaise vive nella sua casa aspettando il marito che non torna perchè la sta tradendo. <br>
+L'importante di questa scena è che il narratore non ci dice mai cosa pensa di lei. <br>
+Si capisce che è triste perchè si mette a piangere (lo fanno quindi capire direttamente le emozioni).
