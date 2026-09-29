@@ -41,3 +41,37 @@ Ci sono diverse tipologie di attacchi:
 Esiste quindi la **stenografia** ovvero l'insieme delle tecniche che permettono di nascondere l'esistenza di un messaggio o della comunicazione stessa. Non è quindi la **crittografia.**
 
 La **crittografia** è quindi la tecnica per la quale non viene nascosto il messaggio ma bensì il suo contenuto.
+
+## SICUREZZA NELLA TRASMISSIONE
+Nella progettazione del servizio di sicurezza bisogna fare diverse cose:
+- Utilizzare un algoritmo per trasformare i dati in chiaro in dati crittografati (tramite chiavi). 
+- Generare le chiavi per crittografare.
+- Sviluppare metodi per la condivisione sicura delle chiavi. 
+- Specificare un protocollo che permetta di utilizzare l'algoritmo di crittografia e le chiavi segrete per comunicare in modo sicuro.
+
+### Cifrari e codici
+**Cifrario:** ogni carattere del testo viene trasformato in un altro carattere (dello stesso alfabeto o di un altro). 
+
+**Codice:** ogni carattere rappresenta un concetto legato a quella trasmissione. Per esempio *X* potrebbe voler dire *"Risiedo in Italia*, mentre *Y* *"Risiedo all'estero*.
+<br>Il codice è strettamente legato al contesto (devo spiegare come funziona il sistema di codifica). 
+
+**Per cifrare un testo occorrono 2 cose:**
+- Algoritmo di cifratura (pubblico): è il modo di applicare la chiave.
+- Chiave (privata): solo per il cifrario.
+
+**Esempio - Cifrario di Cesare** 
+<br>Algoritmo: sposta di n lettere ogni carattere.
+
+K (chiave) = 2 --> N
+
+*Ciao --> Emcq*
+
+Ha delle limitazioni: posso cifrare solo con 24 lettere.
+
+![Immagine](image.png)
+
+### Principio di Kerckhoffes
+Principio cardine della crittografia secondo il quale la sicurezza di un sistema crittografico è basata esclusivamente sulla conoscenza della chiave. 
+<br>Si presuppone noto a priore l'algoritmo di cifratura e decifratura.
+
+Se si riesce a decifrare un messaggio senza la chiave si dice che il cifrario è stato rotto.
