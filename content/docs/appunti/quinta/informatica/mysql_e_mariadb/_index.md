@@ -165,6 +165,32 @@ Per esempio, se io voglio inserire un’assenza a uno studente che non esiste qu
 
 Non è possibile eliminare uno studente che ha delle assenze perché rimarrebbero le assenze associate ad uno studente che non esiste. Se non ha nessuna assenza posso cancellarlo. 
 
+È possibile fare 2 cose che “automatizzino” il database: posso dichiarare che se uno studente viene eliminato vengono eliminate anche le sue assenze. Oppure che se elimino uno studente, le sue assenze vengono impostate a null. Oppure se modifico la matricola di uno studente viene modificata automaticamente anche nelle assenze. 
+
+Di seguito un esempio:
+
+![alt text](image-28.png)
+
+ON DELETE RESTRICT: non puoi eliminare uno studente se ha delle assenze. 
+
+ON UPDATE RESTRICT: non puoi modificare la matricola di uno studente con assenze collegate.
+
+Questo se non lo scrivo va di default. 
+
+![alt text](image-29.png)
+
+Qui con il CASCADE se elimino uno studente elimina automaticamente tutte le sue assenze, idem se modifico la matricola. 
+
+Per capire come si chiama il vincolo devo usare il comando *show create table [nome tabella] \G*
+
+![ ](image-30.png) 
+
+Questo comando mi permette di rimuovere temporaneamente il vincolo di integrità referenziale.
+
+![alt text](image-31.png)
+
+Questo cambia il CONSTRAINT in assenze_fk1
+
 **Come si fa in SQL a dire che un campo è chiave esterna**
 
 Si usa la parola PRIMARY KEY per le chiavi primarie e FOREIGN KEY per le chiavi esterne. Come nell’immagine. 
@@ -178,3 +204,4 @@ Se non metto auto_increment dovrei fare 2 query:
 - Poi fare più uno e inserire io manualmente.
 
 Quindi è molto più comodo usare l’altro metodo in modo che l’sql assegni in modo autonomo l’id. 
+
