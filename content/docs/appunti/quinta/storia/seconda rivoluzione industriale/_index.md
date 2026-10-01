@@ -28,4 +28,24 @@ Si crea questa elite molto ricca composta da industriali e banchieri. Sono pochi
 4) **Scienza (positivismo)**
 - Edison lampadina
 - Nobel dinamite
-- Ford motore a scoppio --> di conseguenza carburante
+- Ford motore a scoppio --> di conseguenza carburante.
+
+A partire dall'invenzione della lampadina di Edison, l'elettricità viene diffusa in molti altri ambiti. 
+
+La dinamite di Nobel è molto più pratica e meno pericolosa dell'esplosivo che c'era precedentemente. 
+
+Assieme al motore nascono tutte le cose collegate alle macchine:
+- **Dunlop --> pneuimatico** + motori + petrolio. Questi 3 elementi insieme consentono poi la creazione delle auto.
+
+- **Acciaio:** invenzione che permette di fare cose nuove rispetto a ciò che consentiva il ferro. <br>
+E' utile perchè ha una grande elasticità ma una forte robustezza. <br>
+Viene applicato a molti settori diversi, come le rotaie, le macchine industriali, gli edifici (tour Eiffel).
+
+- **Medicina:** si inizia a utilizzare il microscopio ottico che permette di vedere micro-organismi e determinare quindi la causa di malattie di cui prima non si capivano i motivi. <br>
+Viene scoperto **l'etere** ovvero un gas che veniva usato come anestetico. <br>
+Viene scoperto **l'acido asa** ovvero l'acido acetilsalicilico che consente di agire in modo più efficace su febbre ecc.
+Viene scoperto il **DDT** ovvero un repellente per zanzare e insetti.
+
+- **Nuovi metodi per sterilizzazione e conservazione dei cibi:** utile per i soldati al fronte.
+
+    - **Nascono metodi per il trasporto in celle frigorifere-**
