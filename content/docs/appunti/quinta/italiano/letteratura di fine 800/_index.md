@@ -152,3 +152,34 @@ Zola punta a dare il suo contributo al progresso della società.
 Gervaise vive nella sua casa aspettando il marito che non torna perchè la sta tradendo. <br>
 L'importante di questa scena è che il narratore non ci dice mai cosa pensa di lei. <br>
 Si capisce che è triste perchè si mette a piangere (lo fanno quindi capire direttamente le emozioni).
+
+**Aspetto importante è come viene fatta la descrizione della stanza** <br>
+Il narratore racconta degli oggetti presenti nella stanza con un ordine ben preciso. Fino a creare un climax. <br>
+I bambini descritti mentre dormono creano tenerezza al lettore. <br>
+Tutto è disastrato, poi i bambini creano tenerezza, si crea un climax. 
+
+## VERISMO
+E' una corrente che si sciluppa in Italia nel 1878 che si inspira partendo dal naturalismo francese.
+
+I principali esponenti sono **Verga** e **Capuana**, entrambi siciliano.
+
+Verga nel 1878 scrive *"Rosso Malpelo"*
+
+Alla fine degli anni 70 fa una svolta: la **svolta verista**.
+
+- Nel 1877 legge l'assommoir e decide che anche in Italia bisogna dare una svolta. 
+
+- Nel 1877 arriva a Milano Capuana che aiuta molto Verga a maturare questa consapevolezza letteraria. 
+
+- Inchiesta Franchetti-Sonnino --> è un'inchiesta promossa dalla destra storica con l'obiettivo di studiare le condizioni del meridione (analfabetismo, mortalità infantile ecc.). <br>
+Legge questa inchiesta e lo sorprende che mette in evidenza i problemi, in particolare lo stupisce il capitolo sul lavoro minorile: **i carusi**.
+
+Per questo viene scritto ***Rosso Malpelo***<br>
+Parla di un bambino dai capelli rossi e per questo discriminato. 
+
+**Anche il narratore di Verga è impersonale.**
+Cambia però il modo per ottenere l'impersonalità
+
+### Come ottiene l'impersonalità 
+Già nella prima frase si capisce che il narratore subito esprime pregiudizi sul ragazzo. <br>
+Ha i capelli rossi e ri chiama *Malpelo*, poi aggiunge che aveva i capelli rossi perchè era cattivo e prometteva di diventare un bel delinquente. 
